@@ -1,0 +1,419 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #121314;
+  list-style: none;
+  padding: 10px 0;
+  display: none;
+  min-width: 160px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  
+}
+.dropdown-menu li a {
+  display: block;
+  padding: 10px 15px;
+  color: #c5c6c7;
+}
+.dropdown-menu li a:hover {
+  /* background-color: #45a29e; */
+  text-decoration: underline;
+  color: white;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+/* header */
+header{
+    background-color: black;
+    padding-right: 20px;
+}
+input{
+    margin: 15px;
+    background-color: #6b6d6e02;
+    border: 1px solid gray;
+    padding: 10px;
+    /* border-color: rgb(228, 222, 222); */
+    /* border-radius: 3px; */
+}
+.navbar button:hover{
+    background-color: red;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-links{
+    display: flex;
+    color: white;
+
+}
+.nav-links li ,a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.spacex-container{
+    padding-top: 50px;
+   
+}
+.spacex-bg-container{
+ margin-bottom: 30px;
+ line-height: 1.8;
+}
+.spacex-bg-container h2{
+ /* margin-bottom: 30px; */
+ font-size: xx-large;
+}
+.spacex{
+    display: flex;
+    /* flex-wrap: wrap;
+    flex-direction: row; */
+    justify-content: space-around;
+     /* margin-top: 20px; */
+     align-items: center;
+     /* padding: 20px; */
+     padding-bottom: 50px;
+}
+.spacex-content {
+    display:flex ;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+.spacex-content img{
+    margin-top: 10px;
+}
+.spacex-content p{
+   
+   text-align: justify;
+   width: 500px;
+}
+.spacex-bg-content hr{
+    color: gray;
+    opacity: 0.55;
+}
+.spacex-bg-img  {
+    background-image: url("https://scitechdaily.com/images/NASA-SpaceX-CRS-27-Falcon-9-Rocket-Before-Liftoff-scaled.jpg");
+    /* background-repeat: repeat-x; */
+    background-size: cover;
+    width: 93%;
+    color: white;
+    padding: 50px;
+
+}
+.spacex-bg-container{    
+    align-items: center;
+    width: 400px;
+
+}
+.spacex-bg-container p{
+    align-self: flex-start;
+}
+.spacex-bg-contents{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content:space-between;
+  
+
+}
+.fa{
+    background-color: red; 
+    border-radius: 50%;
+     padding: 10px;
+}
+.spacex-bg-content img{
+     border-radius: 50%; 
+     width:40px;
+     height: 40px;
+     margin-top:10px;
+     border:1px solid white;
+}
+.spacex-bg-content img:hover{
+border: 2px solid blue;
+}
+.play-img{
+  display: flex;
+   align-items: end;
+   gap: 20px;
+}
+.featured-news{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; 
+}
+.features-news{
+    display: flex;
+    justify-content: space-around;
+   
+   
+}
+
+.features-news img{
+    width: 480px;
+    height: 300px;
+    
+}
+.feature img {
+    width: 250px;
+    height: 150px;
+
+}
+.feature-container1{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+
+}
+.feature1 img{
+    border-radius: 50%; 
+     width:50px;
+     height: 50px;
+     margin-top:10px;
+     border:1px solid white;
+}
+.feature1{
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-wrap: wrap;
+    align-self: baseline; */
+    /* display: block; */
+    /* padding: 20px; */
+    /* width: 200px; */
+    font-size: small;
+   
+}
+.moon-finalist{
+    margin-top: 50px;
+    background-image: url('https://www.nasa.gov/wp-content/uploads/2025/08/54424457066-ab8a9d0ed0-o.jpg');
+    background-size: cover;
+    /* background-repeat: no-repeat;
+       width: 93%; */
+    color: white;
+    padding: 50px;
+    
+   
+}
+.moon-finalist h2{
+    font-size: 50px;
+}
+.moon-finalist div{
+    width: 500px;
+    /* align-self: center; */
+    line-height: 1.6;
+
+}
+.human-heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.human-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.human-card{
+    position: relative;
+      display: inline-block;
+      /* width: 400px;  */
+      
+}
+.human-card img{
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+}
+ .text-over-image{
+    position: absolute;
+      top: 80%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      color: white;
+      /* font-size: 14px; */
+      font-weight: bold;
+      /* background-color: rgba(0, 0, 0, 0.5);  */
+      /* Semi-transparent background */
+      padding: 10px 20px;
+      border-radius: 5px;
+   
+      
+
+      
+ }
+ .image-day-container{
+    display: flex;
+    margin-top: 50px;
+    padding: 20px;
+ }
+.image-day{
+ padding: 20px;
+ align-items: center;
+text-align: justify;
+font-size: 14px;
+ 
+}
+#image-day-img{
+width:600px;
+height: 300px;
+background-color: #c5c6c7;
+display: flex; 
+justify-content: center; 
+align-items: center; 
+
+}
+
+.image-day img{
+height: 300px;
+width: 300px;
+
+}
+.galleries{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.gallery img{
+    width: 200px;
+
+}
+
+.gallery-image
+{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-around ;
+    
+}
+.img1 img{
+    height: 270px;
+}
+/* .signup-img{
+    position: relative;
+    display: inline-block;
+}
+.signup-contents{
+    position: absolute;
+    left:60%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+      padding: 10px 20px;
+      border-radius: 5px;
+
+} */
+ .signup-container {
+  /* max-width: 800px; */
+  margin: auto;
+  background-image: url('https://www.nasa.gov/wp-content/uploads/2023/01/webb-tarantula-neb.png?w=1536');
+  color: white;
+  padding: 50px;
+ 
+}
+.signup-contents{
+    width: 400px;
+ align-items: start;
+line-height: 1.8;
+
+
+}
+.signup-contents a {
+    text-decoration:underline;
+ 
+}
+
+.signup-contents h2{
+    font-size: 50px;
+    line-height: normal;
+}
+.earth-container{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.earth-contents{
+    font-size: small;
+}
+.content{
+    font-size: 50px;
+}
+.earth-content{
+    padding:20px;
+    align-items: center;
+    font-size: larger;
+}
+.more-topic-container{
+    padding: 20px;
+}
+footer{
+    background-color: black;
+    color: gray;
+    list-style: none;
+    padding: 20px;
+}
+.link1 li, .link2 li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+ .link1 ul {
+display: flex;
+justify-content: space-evenly;
+
+
+}
+.link2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+  
+}
+.content{
+   font-size: 16px;
+    color: gray;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer a{
+     color: gray;
+}
+.contents 
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10px;
+    
+}
+.contents li{
+    list-style: none;
+    /* font-size: 18px; */
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
