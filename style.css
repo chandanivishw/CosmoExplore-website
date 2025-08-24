@@ -417,3 +417,152 @@ footer a{
     justify-content: space-evenly;
     
 }
+/* responsive code of css taken by chat gpt */
+@media (max-width: 600px) {
+
+  /* General Reset for mobile */
+  body {
+    font-size: 14px;
+    overflow-x: hidden;
+  }
+
+  header,
+  .navbar,
+  .nav-links,
+  .spacex,
+  .spacex-content,
+  .spacex-bg-contents,
+  .features-news,
+  .feature-container1,
+  .gallery-image,
+  .earth-container,
+  .footer-container,
+  .contents,
+  .image-day-container,
+  .play-img,
+  .human-heading,
+  .human-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .navbar {
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+
+  .nav-links li {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    z-index: 999;
+  }
+
+  /* Keep hover dropdown on mobile like desktop */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  /* Responsive images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .spacex-content p,
+  .moon-finalist div,
+  .signup-contents,
+  .earth-content {
+    width: 90%;
+    padding: 0 10px;
+  }
+
+  .spacex-bg-img,
+  .signup-container,
+  .moon-finalist {
+    padding: 20px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .spacex-bg-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .spacex-bg-container h2,
+  .signup-contents h2,
+  .moon-finalist h2 {
+    font-size: 24px;
+  }
+
+  .text-over-image {
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    padding: 6px 12px;
+    text-align: center;
+  }
+
+  .image-day,
+  .feature1,
+  .earth-contents {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .gallery img,
+  .feature img,
+  .img1 img,
+  .human-card img,
+  .image-day img,
+  #image-day-img {
+    width: 100%;
+    height: auto;
+  }
+
+  input {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .link1 ul,
+  .link2 ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+  .content {
+    font-size: 18px;
+  }
+
+  .fa {
+    padding: 6px;
+  }
+}
+
